@@ -1,0 +1,83 @@
+{
+  "name": "Facility Maintenance Dashboard",
+  "dataColors": [
+    "#004D40",
+    "#00796B",
+    "#26A69A",
+    "#80CBC4",
+    "#B2DFDB",
+    "#E0F2F1",
+    "#F5F7F7"
+  ],
+  "background": "#003B36",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#26A69A",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "solid": {
+              "color": "#E8F0EF"
+            }
+          }
+        ],
+        "titleText": [
+          {
+            "color": "#004D40",
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "labelColor": [
+          {
+            "color": "#4B6363"
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "titleText": [
+          {
+            "color": "#4B6363"
+          }
+        ],
+        "labelColor": [
+          {
+            "color": "#004D40"
+          }
+        ],
+        "background": [
+          {
+            "solid": {
+              "color": "#E8F0EF"
+            }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "solid": {
+              "color": "#E0F2F1"
+            }
+          }
+        ],
+        "header": [
+          {
+            "color": "#004D40",
+            "fontSize": 13
+          }
+        ]
+      }
+    }
+  }
+}
