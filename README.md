@@ -80,8 +80,4 @@ It provides insights into **asset performance**, **fault trends**, **team effici
 git clone https://github.com/your-username/your-repo-name.git
 
 
-## 📌 Author
-Shams Zakaria  
-Data Analyst | Facility Management Background  
-LinkedIn: *add your link here*
 
