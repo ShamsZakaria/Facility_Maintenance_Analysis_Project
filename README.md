@@ -77,7 +77,5 @@ It provides insights into **asset performance**, **fault trends**, **team effici
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repo-name.git
-
-
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/ShamsZakaria/Facility_Maintenance_Analysis_Project.git)
 
