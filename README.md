@@ -1,63 +1,87 @@
-# 🛠️ Facility Maintenance – Data Analysis Project (Power BI)
+# Facilities Maintenance Analysis Project
 
-This project analyzes maintenance operations within a Facility Management environment using Power BI.  
-The goal is to identify failure patterns, assess team performance, highlight delayed tasks, and evaluate assets’ preventive vs. reactive behavior.
-
----
-
-## 📊 Key Insights Presented in the Dashboard
-
-### ✅ 1. Categories With Most Failures
-- Identify which maintenance categories experience the highest breakdown frequency.
-- Helps management prioritize critical systems.
-
-### ✅ 2. Team Performance Evaluation
-- Track which teams close tasks on time.
-- Identify teams with consistent delays.
-
-### ✅ 3. Asset Failure Patterns
-- Detect assets with repeated breakdowns.
-- Compare preventive maintenance history vs. actual failures.
-
-### ✅ 4. Site-Level Performance
-- Which sites have most issues (delays or failures)?
-- Useful for resource allocation.
-
-### ✅ 5. Preventive vs. Reactive Analysis
-- Identify assets receiving regular preventive maintenance but still experiencing failures.
-- Helps optimize PM schedules.
-
-### 🧮 KPIs Included
-- **Total Tasks**
-- **On-Time %**
-- **Delayed Tasks**
-- **Avg Resolution Time**
-- **Failure Frequency by Category**
-- **Top 10 Breakdown Assets**
-- **Weekly Trend (2-Month Dataset)**
+## 📌 Project Overview
+This project is an interactive Power BI dashboard designed to analyze and visualize the performance of facilities maintenance operations.  
+It provides insights into **asset performance**, **fault trends**, **team efficiency**, and **delay analysis**, helping decision-makers improve workflow efficiency and reduce downtime.
 
 ---
 
-## 📁 Project Files
-- **Power BI Dashboard** → `Facility_Maintenance.pbix`
-- **Dataset (Excel)** → `facility_maintenance_sample_data.xlsx`
-- **Theme JSON** → `Facility_Maintenance_Theme.json`
+## 🚀 Key Features
+
+### 1. Faults Overview Page (Faults Review)
+- Summary of:
+  - Total breakdowns  
+  - Tasks completed on time  
+  - Delayed tasks  
+- Calculates:
+  - On-Time Completion Rate  
+  - Delay Rate  
+- Average daily resolution time  
+- Faults analysis by:
+  - Maintenance Category (Electrical, HVAC, Fire Alarm, Architectural, Plumbing)  
+  - Asset Name  
+- Breakdown distribution by:
+  - Location  
+  - Month  
 
 ---
 
-## 🚀 Tools Used
-- **Power BI Desktop**
-- **Power Query**
-- **DAX**
-- **Data Modeling (Star Schema)**
-- **GitHub for Portfolio**
+### 2. Team Performance Page
+- Tracks team performance:
+  - Total breakdowns per team  
+  - Tasks completed on time  
+  - Delayed tasks  
+- Computes:
+  - Completion Rate  
+  - Delay Rate  
+- Breakdown and delay analysis by:
+  - Team Name  
+  - Maintenance Category  
 
 ---
+
+### 3. Assets Performance Page
+- Tracks:
+  - Work Order Count (WO Count)  
+  - Total assets  
+- Tasks distribution:
+  - Completed on time  
+  - Delayed  
+- Analysis by:
+  - Maintenance Frequency (Annual, Monthly, Quarterly)  
+  - Floor  
+  - Asset location distribution  
+
+---
+
+## 📁 Repository Contents
+
+| File Name | Description |
+|----------|-------------|
+| **FacilitiesMaintenanceProject.pbix** | Main Power BI report with visuals & data model |
+| **facility_maintenance_sample_data_updated.xlsx** | Sample dataset used for building the report |
+| **Facility_Maintenance_Theme.json** | Custom Power BI theme (colors + fonts) |
+| **AssetsPerformancePage.jpg** | Screenshot – Assets Performance Page |
+| **FaultsOverviewPage.jpg** | Screenshot – Faults Overview Page |
+| **TeamPerformancePage.jpg** | Screenshot – Team Performance Page |
+
+---
+
+## 🛠️ Prerequisites
+- **Microsoft Power BI Desktop**  
+  Required to open the `.pbix` file and explore the dashboard.
+
+---
+
+## 📥 How to Use
+
+### 1. Clone the Repository
+```sh
+git clone https://github.com/your-username/your-repo-name.git
+
 
 ## 📌 Author
 Shams Zakaria  
 Data Analyst | Facility Management Background  
 LinkedIn: *add your link here*
-
----
 
